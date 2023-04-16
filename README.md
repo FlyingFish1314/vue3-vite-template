@@ -1,7 +1,15 @@
 # vue-vite-template
 ## 介绍：
 vue3+ts+vite+pinia项目模板
+```
+vue3
+vite
+ts
+pinia
+router
 
+
+```
 
 
 
