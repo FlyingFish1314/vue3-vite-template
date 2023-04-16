@@ -1,10 +1,6 @@
 <template>
-  <div>main{{ counterStore.counter }}</div>
+  <div class="main">main</div>
 </template>
 
-<script lang="ts" setup>
-import useCounterStore from '@/store/counter'
-
-const counterStore = useCounterStore()
-</script>
+<script lang="ts" setup></script>
 <style lang="scss" scoped></style>

@@ -1,11 +1,13 @@
 <template>
-  <div>login</div>
+  <div>login main{{ counterStore.counter }}</div>
 </template>
 
 <script lang="ts" setup>
 import request from '@/service'
 import { onMounted } from 'vue'
+import useCounterStore from '@/store/counter'
 
+const counterStore = useCounterStore()
 interface Req {
   apiKey: string
   area?: string

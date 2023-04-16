@@ -7,3 +7,4 @@ declare module '*vue' {
 }
 
 declare module 'lodash'
+declare module 'element-plus/dist/locale/zh-cn.mjs'
